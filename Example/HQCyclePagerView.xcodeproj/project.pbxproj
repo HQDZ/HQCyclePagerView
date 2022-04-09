@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EB77D15AEACDEE0544F6B55 /* HQCyclePagerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HQCyclePagerView.podspec; path = ../HQCyclePagerView.podspec; sourceTree = "<group>"; };
-		144922BD1DB33423818E0892 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0EB77D15AEACDEE0544F6B55 /* HQCyclePagerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HQCyclePagerView.podspec; path = ../HQCyclePagerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		144922BD1DB33423818E0892 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		34AF28BE916E3F4A60A53115 /* Pods-HQCyclePagerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQCyclePagerView_Tests.release.xcconfig"; path = "Target Support Files/Pods-HQCyclePagerView_Tests/Pods-HQCyclePagerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4034BB09298D2CC2A1FC96BE /* Pods_HQCyclePagerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQCyclePagerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51FA3FC2AA36AEAB23D83120 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		51FA3FC2AA36AEAB23D83120 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HQCyclePagerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQCyclePagerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -193,7 +193,6 @@
 				7CD6716D61DFDC6720666710 /* Pods-HQCyclePagerView_Tests.debug.xcconfig */,
 				34AF28BE916E3F4A60A53115 /* Pods-HQCyclePagerView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

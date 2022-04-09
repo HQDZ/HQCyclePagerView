@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HQCyclePagerView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HQCyclePagerView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HQCyclePagerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HQCyclePagerView: e73592001b9b922e3876821abc3abc0e198e3747
+
+PODFILE CHECKSUM: 2d421e9a093c5d3630012116a8c869ccc7642089
+
+COCOAPODS: 1.11.2

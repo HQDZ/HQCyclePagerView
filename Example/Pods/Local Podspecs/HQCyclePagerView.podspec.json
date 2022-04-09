@@ -1,0 +1,22 @@
+{
+  "name": "HQCyclePagerView",
+  "version": "0.1.0",
+  "summary": "A short description of HQCyclePagerView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/stevenJiechen/HQCyclePagerView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "stevenJiechen": "2214312777@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/stevenJiechen/HQCyclePagerView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HQCyclePagerView/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module HQCyclePagerView {
+  umbrella header "HQCyclePagerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
