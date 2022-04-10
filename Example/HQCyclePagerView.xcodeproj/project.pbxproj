@@ -24,6 +24,28 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A41462C085B41795088075FC /* Pods_HQCyclePagerView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4034BB09298D2CC2A1FC96BE /* Pods_HQCyclePagerView_Example.framework */; };
+		AE96B2AB2802FADD006181FC /* HQCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2AA2802FADD006181FC /* HQCyclePagerView.m */; };
+		AE96B2AE2802FB67006181FC /* HQCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2AD2802FB67006181FC /* HQCyclePagerTransformLayout.m */; };
+		AE96B2B128030480006181FC /* HQPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2B028030480006181FC /* HQPageControl.m */; };
+		AE96B2DB280309B1006181FC /* YYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2B3280309B1006181FC /* YYImageCache.m */; };
+		AE96B2DC280309B1006181FC /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2B5280309B1006181FC /* YYDiskCache.m */; };
+		AE96B2DD280309B1006181FC /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2B7280309B1006181FC /* YYCache.m */; };
+		AE96B2DE280309B1006181FC /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2BB280309B1006181FC /* YYKVStorage.m */; };
+		AE96B2DF280309B1006181FC /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2BC280309B1006181FC /* YYMemoryCache.m */; };
+		AE96B2E0280309B1006181FC /* YYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2BD280309B1006181FC /* YYWebImageManager.m */; };
+		AE96B2E1280309B1006181FC /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2C3280309B1006181FC /* YYSpriteSheetImage.m */; };
+		AE96B2E2280309B1006181FC /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2C5280309B1006181FC /* YYImage.m */; };
+		AE96B2E3280309B1006181FC /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2C6280309B1006181FC /* YYImageCoder.m */; };
+		AE96B2E4280309B1006181FC /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2C7280309B1006181FC /* YYFrameImage.m */; };
+		AE96B2E5280309B1006181FC /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2C8280309B1006181FC /* YYAnimatedImageView.m */; };
+		AE96B2E6280309B1006181FC /* _YYWebImageSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2CD280309B1006181FC /* _YYWebImageSetter.m */; };
+		AE96B2E7280309B1006181FC /* UIButton+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2D4280309B1006181FC /* UIButton+YYWebImage.m */; };
+		AE96B2E8280309B1006181FC /* UIImageView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2D5280309B1006181FC /* UIImageView+YYWebImage.m */; };
+		AE96B2E9280309B1006181FC /* MKAnnotationView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2D6280309B1006181FC /* MKAnnotationView+YYWebImage.m */; };
+		AE96B2EA280309B1006181FC /* UIImage+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2D7280309B1006181FC /* UIImage+YYWebImage.m */; };
+		AE96B2EB280309B1006181FC /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2D8280309B1006181FC /* CALayer+YYWebImage.m */; };
+		AE96B2EC280309B1006181FC /* YYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2DA280309B1006181FC /* YYWebImageOperation.m */; };
+		AE96B2EF28030A92006181FC /* HQCyclePagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96B2EE28030A92006181FC /* HQCyclePagerViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +89,51 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9295995DF4A947E9239C38D6 /* Pods-HQCyclePagerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQCyclePagerView_Example.release.xcconfig"; path = "Target Support Files/Pods-HQCyclePagerView_Example/Pods-HQCyclePagerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A0983DBA404CDA6FC6CDB6CF /* Pods-HQCyclePagerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQCyclePagerView_Example.debug.xcconfig"; path = "Target Support Files/Pods-HQCyclePagerView_Example/Pods-HQCyclePagerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AE96B2A92802FADD006181FC /* HQCyclePagerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCyclePagerView.h; sourceTree = "<group>"; };
+		AE96B2AA2802FADD006181FC /* HQCyclePagerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCyclePagerView.m; sourceTree = "<group>"; };
+		AE96B2AC2802FB67006181FC /* HQCyclePagerTransformLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCyclePagerTransformLayout.h; sourceTree = "<group>"; };
+		AE96B2AD2802FB67006181FC /* HQCyclePagerTransformLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCyclePagerTransformLayout.m; sourceTree = "<group>"; };
+		AE96B2AF28030480006181FC /* HQPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQPageControl.h; sourceTree = "<group>"; };
+		AE96B2B028030480006181FC /* HQPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQPageControl.m; sourceTree = "<group>"; };
+		AE96B2B3280309B1006181FC /* YYImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCache.m; sourceTree = "<group>"; };
+		AE96B2B5280309B1006181FC /* YYDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDiskCache.m; sourceTree = "<group>"; };
+		AE96B2B6280309B1006181FC /* YYKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKVStorage.h; sourceTree = "<group>"; };
+		AE96B2B7280309B1006181FC /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
+		AE96B2B8280309B1006181FC /* YYMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
+		AE96B2B9280309B1006181FC /* YYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
+		AE96B2BA280309B1006181FC /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
+		AE96B2BB280309B1006181FC /* YYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
+		AE96B2BC280309B1006181FC /* YYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
+		AE96B2BD280309B1006181FC /* YYWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageManager.m; sourceTree = "<group>"; };
+		AE96B2BE280309B1006181FC /* YYWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImageOperation.h; sourceTree = "<group>"; };
+		AE96B2C0280309B1006181FC /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
+		AE96B2C1280309B1006181FC /* YYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
+		AE96B2C2280309B1006181FC /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
+		AE96B2C3280309B1006181FC /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
+		AE96B2C4280309B1006181FC /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
+		AE96B2C5280309B1006181FC /* YYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
+		AE96B2C6280309B1006181FC /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
+		AE96B2C7280309B1006181FC /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
+		AE96B2C8280309B1006181FC /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
+		AE96B2C9280309B1006181FC /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
+		AE96B2CA280309B1006181FC /* YYImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCache.h; sourceTree = "<group>"; };
+		AE96B2CB280309B1006181FC /* YYWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImageManager.h; sourceTree = "<group>"; };
+		AE96B2CD280309B1006181FC /* _YYWebImageSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _YYWebImageSetter.m; sourceTree = "<group>"; };
+		AE96B2CE280309B1006181FC /* UIButton+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YYWebImage.h"; sourceTree = "<group>"; };
+		AE96B2CF280309B1006181FC /* UIImageView+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YYWebImage.h"; sourceTree = "<group>"; };
+		AE96B2D0280309B1006181FC /* CALayer+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+YYWebImage.h"; sourceTree = "<group>"; };
+		AE96B2D1280309B1006181FC /* UIImage+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YYWebImage.h"; sourceTree = "<group>"; };
+		AE96B2D2280309B1006181FC /* MKAnnotationView+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+YYWebImage.h"; sourceTree = "<group>"; };
+		AE96B2D3280309B1006181FC /* _YYWebImageSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _YYWebImageSetter.h; sourceTree = "<group>"; };
+		AE96B2D4280309B1006181FC /* UIButton+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YYWebImage.m"; sourceTree = "<group>"; };
+		AE96B2D5280309B1006181FC /* UIImageView+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YYWebImage.m"; sourceTree = "<group>"; };
+		AE96B2D6280309B1006181FC /* MKAnnotationView+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+YYWebImage.m"; sourceTree = "<group>"; };
+		AE96B2D7280309B1006181FC /* UIImage+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YYWebImage.m"; sourceTree = "<group>"; };
+		AE96B2D8280309B1006181FC /* CALayer+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+YYWebImage.m"; sourceTree = "<group>"; };
+		AE96B2D9280309B1006181FC /* YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImage.h; sourceTree = "<group>"; };
+		AE96B2DA280309B1006181FC /* YYWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageOperation.m; sourceTree = "<group>"; };
+		AE96B2ED28030A92006181FC /* HQCyclePagerViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCyclePagerViewCell.h; sourceTree = "<group>"; };
+		AE96B2EE28030A92006181FC /* HQCyclePagerViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCyclePagerViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +199,8 @@
 		6003F593195388D20070C39A /* Example for HQCyclePagerView */ = {
 			isa = PBXGroup;
 			children = (
+				AE96B2B2280309B1006181FC /* YYWebImage */,
+				AE96B2A8280190C9006181FC /* HQCyclePagerView */,
 				6003F59C195388D20070C39A /* HQAppDelegate.h */,
 				6003F59D195388D20070C39A /* HQAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -140,6 +209,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				AE96B2ED28030A92006181FC /* HQCyclePagerViewCell.h */,
+				AE96B2EE28030A92006181FC /* HQCyclePagerViewCell.m */,
 			);
 			name = "Example for HQCyclePagerView";
 			path = HQCyclePagerView;
@@ -183,6 +254,87 @@
 				144922BD1DB33423818E0892 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		AE96B2A8280190C9006181FC /* HQCyclePagerView */ = {
+			isa = PBXGroup;
+			children = (
+				AE96B2A92802FADD006181FC /* HQCyclePagerView.h */,
+				AE96B2AA2802FADD006181FC /* HQCyclePagerView.m */,
+				AE96B2AC2802FB67006181FC /* HQCyclePagerTransformLayout.h */,
+				AE96B2AD2802FB67006181FC /* HQCyclePagerTransformLayout.m */,
+				AE96B2AF28030480006181FC /* HQPageControl.h */,
+				AE96B2B028030480006181FC /* HQPageControl.m */,
+			);
+			path = HQCyclePagerView;
+			sourceTree = "<group>";
+		};
+		AE96B2B2280309B1006181FC /* YYWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				AE96B2B4280309B1006181FC /* Cache */,
+				AE96B2CC280309B1006181FC /* Categories */,
+				AE96B2BF280309B1006181FC /* Image */,
+				AE96B2CA280309B1006181FC /* YYImageCache.h */,
+				AE96B2B3280309B1006181FC /* YYImageCache.m */,
+				AE96B2D9280309B1006181FC /* YYWebImage.h */,
+				AE96B2CB280309B1006181FC /* YYWebImageManager.h */,
+				AE96B2BD280309B1006181FC /* YYWebImageManager.m */,
+				AE96B2BE280309B1006181FC /* YYWebImageOperation.h */,
+				AE96B2DA280309B1006181FC /* YYWebImageOperation.m */,
+			);
+			path = YYWebImage;
+			sourceTree = "<group>";
+		};
+		AE96B2B4280309B1006181FC /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				AE96B2BA280309B1006181FC /* YYCache.h */,
+				AE96B2B7280309B1006181FC /* YYCache.m */,
+				AE96B2B9280309B1006181FC /* YYDiskCache.h */,
+				AE96B2B5280309B1006181FC /* YYDiskCache.m */,
+				AE96B2B6280309B1006181FC /* YYKVStorage.h */,
+				AE96B2BB280309B1006181FC /* YYKVStorage.m */,
+				AE96B2B8280309B1006181FC /* YYMemoryCache.h */,
+				AE96B2BC280309B1006181FC /* YYMemoryCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		AE96B2BF280309B1006181FC /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				AE96B2C4280309B1006181FC /* YYAnimatedImageView.h */,
+				AE96B2C8280309B1006181FC /* YYAnimatedImageView.m */,
+				AE96B2C2280309B1006181FC /* YYFrameImage.h */,
+				AE96B2C7280309B1006181FC /* YYFrameImage.m */,
+				AE96B2C0280309B1006181FC /* YYImage.h */,
+				AE96B2C5280309B1006181FC /* YYImage.m */,
+				AE96B2C1280309B1006181FC /* YYImageCoder.h */,
+				AE96B2C6280309B1006181FC /* YYImageCoder.m */,
+				AE96B2C9280309B1006181FC /* YYSpriteSheetImage.h */,
+				AE96B2C3280309B1006181FC /* YYSpriteSheetImage.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		AE96B2CC280309B1006181FC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AE96B2D3280309B1006181FC /* _YYWebImageSetter.h */,
+				AE96B2CD280309B1006181FC /* _YYWebImageSetter.m */,
+				AE96B2D0280309B1006181FC /* CALayer+YYWebImage.h */,
+				AE96B2D8280309B1006181FC /* CALayer+YYWebImage.m */,
+				AE96B2D2280309B1006181FC /* MKAnnotationView+YYWebImage.h */,
+				AE96B2D6280309B1006181FC /* MKAnnotationView+YYWebImage.m */,
+				AE96B2CE280309B1006181FC /* UIButton+YYWebImage.h */,
+				AE96B2D4280309B1006181FC /* UIButton+YYWebImage.m */,
+				AE96B2D1280309B1006181FC /* UIImage+YYWebImage.h */,
+				AE96B2D7280309B1006181FC /* UIImage+YYWebImage.m */,
+				AE96B2CF280309B1006181FC /* UIImageView+YYWebImage.h */,
+				AE96B2D5280309B1006181FC /* UIImageView+YYWebImage.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		E75772A9E603560BC9C865E6 /* Pods */ = {
@@ -246,8 +398,11 @@
 			attributes = {
 				CLASSPREFIX = HQ;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = stevenJiechen;
+				ORGANIZATIONNAME = HQTeam;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 289PAWQ6YH;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -383,9 +538,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE96B2E9280309B1006181FC /* MKAnnotationView+YYWebImage.m in Sources */,
+				AE96B2E0280309B1006181FC /* YYWebImageManager.m in Sources */,
+				AE96B2DB280309B1006181FC /* YYImageCache.m in Sources */,
+				AE96B2DC280309B1006181FC /* YYDiskCache.m in Sources */,
+				AE96B2EC280309B1006181FC /* YYWebImageOperation.m in Sources */,
+				AE96B2EA280309B1006181FC /* UIImage+YYWebImage.m in Sources */,
+				AE96B2E6280309B1006181FC /* _YYWebImageSetter.m in Sources */,
+				AE96B2AB2802FADD006181FC /* HQCyclePagerView.m in Sources */,
+				AE96B2E5280309B1006181FC /* YYAnimatedImageView.m in Sources */,
 				6003F59E195388D20070C39A /* HQAppDelegate.m in Sources */,
+				AE96B2DE280309B1006181FC /* YYKVStorage.m in Sources */,
 				6003F5A7195388D20070C39A /* HQViewController.m in Sources */,
+				AE96B2E8280309B1006181FC /* UIImageView+YYWebImage.m in Sources */,
+				AE96B2E2280309B1006181FC /* YYImage.m in Sources */,
+				AE96B2EF28030A92006181FC /* HQCyclePagerViewCell.m in Sources */,
+				AE96B2DD280309B1006181FC /* YYCache.m in Sources */,
+				AE96B2E4280309B1006181FC /* YYFrameImage.m in Sources */,
+				AE96B2E3280309B1006181FC /* YYImageCoder.m in Sources */,
+				AE96B2E1280309B1006181FC /* YYSpriteSheetImage.m in Sources */,
+				AE96B2E7280309B1006181FC /* UIButton+YYWebImage.m in Sources */,
+				AE96B2EB280309B1006181FC /* CALayer+YYWebImage.m in Sources */,
+				AE96B2DF280309B1006181FC /* YYMemoryCache.m in Sources */,
+				AE96B2AE2802FB67006181FC /* HQCyclePagerTransformLayout.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				AE96B2B128030480006181FC /* HQPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +690,7 @@
 			baseConfigurationReference = A0983DBA404CDA6FC6CDB6CF /* Pods-HQCyclePagerView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 289PAWQ6YH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HQCyclePagerView/HQCyclePagerView-Prefix.pch";
 				INFOPLIST_FILE = "HQCyclePagerView/HQCyclePagerView-Info.plist";
@@ -529,6 +707,7 @@
 			baseConfigurationReference = 9295995DF4A947E9239C38D6 /* Pods-HQCyclePagerView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 289PAWQ6YH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HQCyclePagerView/HQCyclePagerView-Prefix.pch";
 				INFOPLIST_FILE = "HQCyclePagerView/HQCyclePagerView-Info.plist";
